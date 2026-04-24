@@ -1,0 +1,444 @@
+Connecting to Arduino on /dev/ttyACM0 at 9600 baud...
+Connected. Listening for state updates...
+
+[13:46:29]  MP3: STOPPED     PHONE: ON_HOOK     RECORD: IDLE
+[PHONE] On hook — stopping everything...
+[IMG] Welcome image started (PID 1751)
+[13:49:41]  MP3: PLAYING     PHONE: ON_HOOK     RECORD: IDLE
+[PHONE] On hook — stopping everything...
+[IMG] Welcome image started (PID 1810)
+[13:49:43]  MP3: PLAYING     PHONE: LIFTED      RECORD: IDLE
+[IMG] Welcome image stopped.
+[PHONE] Phone lifted — starting stream and video...
+[REC] Screens idle — resuming in 0.5 seconds...
+[CAM] Stream started on HDMI-A-2 (PID 1813)
+[VID] Video started on HDMI0 / HDMI-A-1 (PID 1815)
+[CAM stderr] [0:06:00.707497949] [1813]  INFO Camera camera_manager.cpp:340 libcamera v0.7.0+rpt20260205
+[CAM stderr] [0:06:00.716147516] [1819]  INFO RPI pisp.cpp:720 libpisp version 1.3.0
+[CAM stderr] [0:06:00.716872060] [1819]  WARN CameraSensorProperties camera_sensor_properties.cpp:548 No static properties available for 'imx708_wide'
+[CAM stderr] [0:06:00.716879782] [1819]  WARN CameraSensorProperties camera_sensor_properties.cpp:550 Please consider updating the camera sensor properties database
+[CAM stderr] [0:06:00.726560555] [1819]  INFO IPAProxy ipa_proxy.cpp:180 Using tuning file /usr/share/libcamera/ipa/rpi/pisp/imx708_wide.json
+[CAM stderr] [0:06:00.733399113] [1819]  WARN CameraSensor camera_sensor_legacy.cpp:502 'imx708_wide': No sensor delays found in static properties. Assuming unverified defaults.
+[CAM stderr] [0:06:00.733808625] [1819]  INFO Camera camera_manager.cpp:223 Adding camera '/base/axi/pcie@1000120000/rp1/i2c@80000/imx708@1a' for pipeline handler rpi/pisp
+[CAM stderr] [0:06:00.733821792] [1819]  INFO RPI pisp.cpp:1181 Registered camera /base/axi/pcie@1000120000/rp1/i2c@80000/imx708@1a to CFE device /dev/media1 and ISP device /dev/media2 using PiSP variant BCM2712_D0
+[CAM stderr] Made X/EGL preview window
+[CAM stderr] Made DRM preview window
+[CAM stderr] Preview window unavailable
+[CAM stderr] Mode selection for 1920:540:12:P
+[CAM stderr]     SRGGB10_CSI2P,1536x864/0 - Score: 7182.33
+[CAM stderr]     SRGGB10_CSI2P,2304x1296/0 - Score: 6618.33
+[CAM stderr]     SRGGB10_CSI2P,4608x2592/0 - Score: 7518.33
+[CAM stderr] Stream configuration adjusted
+[CAM stderr] [0:06:01.049381668] [1813]  INFO Camera camera.cpp:1215 configuring streams: (0) 1920x540-YUV420/Rec709 (1) 2304x1296-GBRG_PISP_COMP1/RAW
+[CAM stderr] [0:06:01.049477074] [1819]  INFO RPI pisp.cpp:1485 Sensor: /base/axi/pcie@1000120000/rp1/i2c@80000/imx708@1a - Selected sensor format: 2304x1296-SGBRG10_1X10/RAW - Selected CFE format: 2304x1296-PC1g/RAW
+[CAM stderr] [libx264 @ 0x5556708461c0] using cpu capabilities: ARMv8 NEON
+[CAM stderr] [libx264 @ 0x5556708461c0] profile High, level 3.2, 4:2:0, 8-bit
+[CAM stderr] Output #0, h264, to '':
+[CAM stderr]   Stream #0:0: Video: h264, yuv420p(tv, bt709), 1920x540, q=2-31, 30 fps, 30 tbr, 1000k tbn
+[CAM stderr]       Side data:
+[CAM stderr]         cpb: bitrate max/min/avg: 0/0/0 buffer size: 0 vbv_delay: N/A
+[VID] Volume set to 100
+[13:49:44]  MP3: STOPPED     PHONE: LIFTED      RECORD: IDLE
+[PHONE] Phone lifted — starting stream and video...
+[CAM] Stream stopped.
+[VID] Video stopped.
+[REC] Screens idle — resuming in 0.5 seconds...
+[CAM] Stream started on HDMI-A-2 (PID 1861)
+[VID] Video started on HDMI0 / HDMI-A-1 (PID 1863)
+[CAM stderr] [0:06:02.259658689] [1861]  INFO Camera camera_manager.cpp:340 libcamera v0.7.0+rpt20260205
+[CAM stderr] [0:06:02.268906453] [1867]  INFO RPI pisp.cpp:720 libpisp version 1.3.0
+[CAM stderr] [0:06:02.269709385] [1867]  WARN CameraSensorProperties camera_sensor_properties.cpp:548 No static properties available for 'imx708_wide'
+[CAM stderr] [0:06:02.269721940] [1867]  WARN CameraSensorProperties camera_sensor_properties.cpp:550 Please consider updating the camera sensor properties database
+[CAM stderr] [0:06:02.279900449] [1867]  INFO IPAProxy ipa_proxy.cpp:180 Using tuning file /usr/share/libcamera/ipa/rpi/pisp/imx708_wide.json
+[CAM stderr] [0:06:02.286991616] [1867]  WARN CameraSensor camera_sensor_legacy.cpp:502 'imx708_wide': No sensor delays found in static properties. Assuming unverified defaults.
+[CAM stderr] [0:06:02.287408406] [1867]  INFO Camera camera_manager.cpp:223 Adding camera '/base/axi/pcie@1000120000/rp1/i2c@80000/imx708@1a' for pipeline handler rpi/pisp
+[CAM stderr] [0:06:02.287419535] [1867]  INFO RPI pisp.cpp:1181 Registered camera /base/axi/pcie@1000120000/rp1/i2c@80000/imx708@1a to CFE device /dev/media1 and ISP device /dev/media2 using PiSP variant BCM2712_D0
+[CAM stderr] Made X/EGL preview window
+[CAM stderr] Made DRM preview window
+[CAM stderr] Preview window unavailable
+[CAM stderr] Mode selection for 1920:540:12:P
+[CAM stderr]     SRGGB10_CSI2P,1536x864/0 - Score: 7182.33
+[CAM stderr]     SRGGB10_CSI2P,2304x1296/0 - Score: 6618.33
+[CAM stderr]     SRGGB10_CSI2P,4608x2592/0 - Score: 7518.33
+[CAM stderr] Stream configuration adjusted
+[CAM stderr] [0:06:02.304310384] [1861]  INFO Camera camera.cpp:1215 configuring streams: (0) 1920x540-YUV420/Rec709 (1) 2304x1296-GBRG_PISP_COMP1/RAW
+[CAM stderr] [0:06:02.304411234] [1867]  INFO RPI pisp.cpp:1485 Sensor: /base/axi/pcie@1000120000/rp1/i2c@80000/imx708@1a - Selected sensor format: 2304x1296-SGBRG10_1X10/RAW - Selected CFE format: 2304x1296-PC1g/RAW
+[CAM stderr] [libx264 @ 0x5555c74a61c0] using cpu capabilities: ARMv8 NEON
+[CAM stderr] [libx264 @ 0x5555c74a61c0] profile High, level 3.2, 4:2:0, 8-bit
+[CAM stderr] Output #0, h264, to '':
+[CAM stderr]   Stream #0:0: Video: h264, yuv420p(tv, bt709), 1920x540, q=2-31, 30 fps, 30 tbr, 1000k tbn
+[CAM stderr]       Side data:
+[CAM stderr]         cpb: bitrate max/min/avg: 0/0/0 buffer size: 0 vbv_delay: N/A
+[VID] Volume set to 100
+[CAM stderr] #7 (0.00 fps) exp 32680.00 ag 2.07 dg 1.00
+[CAM stderr] #8 (30.01 fps) exp 32680.00 ag 2.14 dg 1.00
+[CAM stderr] #9 (30.01 fps) exp 32680.00 ag 2.25 dg 1.00
+[CAM stderr] #10 (30.01 fps) exp 32680.00 ag 2.25 dg 1.00
+[CAM stderr] #11 (30.00 fps) exp 32680.00 ag 2.27 dg 1.00
+[CAM stderr] #12 (30.02 fps) exp 32680.00 ag 2.26 dg 1.00
+[CAM stderr] #13 (30.01 fps) exp 32680.00 ag 2.26 dg 1.00
+[CAM stderr] #14 (30.01 fps) exp 32680.00 ag 2.27 dg 1.00
+[CAM stderr] #15 (30.01 fps) exp 32680.00 ag 2.27 dg 1.00
+[CAM stderr] #16 (30.00 fps) exp 32680.00 ag 2.27 dg 1.00
+[CAM stderr] #17 (30.02 fps) exp 32680.00 ag 2.27 dg 1.00
+[CAM stderr] #18 (30.01 fps) exp 32680.00 ag 2.27 dg 1.00
+[CAM stderr] #19 (30.01 fps) exp 32680.00 ag 2.27 dg 1.00
+[CAM stderr] #20 (30.01 fps) exp 32680.00 ag 2.27 dg 1.00
+[CAM stderr] #21 (30.01 fps) exp 32680.00 ag 2.27 dg 1.00
+[CAM stderr] #22 (30.01 fps) exp 32680.00 ag 2.27 dg 1.00
+[CAM stderr] #23 (30.01 fps) exp 32680.00 ag 2.27 dg 1.00
+[CAM stderr] #24 (30.01 fps) exp 32680.00 ag 2.27 dg 1.00
+[CAM stderr] #25 (30.01 fps) exp 32680.00 ag 2.27 dg 1.00
+[CAM stderr] #26 (30.01 fps) exp 32680.00 ag 2.27 dg 1.00
+[CAM stderr] #27 (30.01 fps) exp 32680.00 ag 2.27 dg 1.00
+[CAM stderr] #28 (30.02 fps) exp 32680.00 ag 2.27 dg 1.00
+[CAM stderr] #29 (30.01 fps) exp 32680.00 ag 2.27 dg 1.00
+[CAM stderr] #30 (30.01 fps) exp 32680.00 ag 2.27 dg 1.00
+[CAM stderr] #31 (30.01 fps) exp 32680.00 ag 2.27 dg 1.00
+[CAM stderr] #32 (30.01 fps) exp 32680.00 ag 2.27 dg 1.00
+[CAM stderr] #33 (30.01 fps) exp 32680.00 ag 2.27 dg 1.00
+[CAM stderr] #34 (30.01 fps) exp 32680.00 ag 2.27 dg 1.00
+[CAM stderr] #35 (30.01 fps) exp 32680.00 ag 2.27 dg 1.00
+[CAM stderr] #36 (30.01 fps) exp 32680.00 ag 2.27 dg 1.00
+[CAM stderr] #37 (30.01 fps) exp 32680.00 ag 2.27 dg 1.00
+[CAM stderr] #38 (30.01 fps) exp 32680.00 ag 2.27 dg 1.00
+[CAM stderr] #39 (30.01 fps) exp 32680.00 ag 2.27 dg 1.00
+[CAM stderr] #40 (30.01 fps) exp 32680.00 ag 2.27 dg 1.00
+[CAM stderr] #41 (30.01 fps) exp 32680.00 ag 2.27 dg 1.00
+[CAM stderr] #42 (30.01 fps) exp 32680.00 ag 2.27 dg 1.00
+[CAM stderr] #43 (30.01 fps) exp 32680.00 ag 2.27 dg 1.00
+[CAM stderr] #44 (30.01 fps) exp 32680.00 ag 2.27 dg 1.00
+[CAM stderr] #45 (30.01 fps) exp 32680.00 ag 2.27 dg 1.00
+[CAM stderr] #46 (30.01 fps) exp 32680.00 ag 2.27 dg 1.00
+[CAM stderr] #47 (30.01 fps) exp 32680.00 ag 2.27 dg 1.00
+[CAM stderr] #48 (30.01 fps) exp 32680.00 ag 2.27 dg 1.00
+[CAM stderr] #49 (30.01 fps) exp 32680.00 ag 2.27 dg 1.00
+[CAM stderr] #50 (30.01 fps) exp 32680.00 ag 2.27 dg 1.00
+[CAM stderr] #51 (30.01 fps) exp 32680.00 ag 2.27 dg 1.00
+[CAM stderr] #52 (30.01 fps) exp 32680.00 ag 2.27 dg 1.00
+[CAM stderr] #53 (30.01 fps) exp 32680.00 ag 2.27 dg 1.00
+[CAM stderr] #54 (30.01 fps) exp 32680.00 ag 2.27 dg 1.00
+[CAM stderr] #55 (30.01 fps) exp 32680.00 ag 2.27 dg 1.00
+[CAM stderr] #56 (30.01 fps) exp 32680.00 ag 2.27 dg 1.00
+[CAM stderr] #57 (30.00 fps) exp 32680.00 ag 2.27 dg 1.00
+[CAM stderr] #58 (30.02 fps) exp 32680.00 ag 2.27 dg 1.00
+[CAM stderr] #59 (30.01 fps) exp 32680.00 ag 2.27 dg 1.00
+[CAM stderr] #60 (30.01 fps) exp 32680.00 ag 2.27 dg 1.00
+[CAM stderr] #61 (30.01 fps) exp 32680.00 ag 2.27 dg 1.00
+[CAM stderr] #62 (30.01 fps) exp 32680.00 ag 2.27 dg 1.00
+[CAM stderr] #63 (30.01 fps) exp 32680.00 ag 2.27 dg 1.00
+[CAM stderr] #64 (30.01 fps) exp 32680.00 ag 2.27 dg 1.00
+[CAM stderr] #65 (30.01 fps) exp 32680.00 ag 2.27 dg 1.00
+[CAM stderr] #66 (30.01 fps) exp 32680.00 ag 2.27 dg 1.00
+[CAM stderr] #67 (30.01 fps) exp 32680.00 ag 2.27 dg 1.00
+[CAM stderr] #68 (30.01 fps) exp 32680.00 ag 2.27 dg 1.00
+[CAM stderr] #69 (30.01 fps) exp 32680.00 ag 2.27 dg 1.00
+[CAM stderr] #70 (30.01 fps) exp 32680.00 ag 2.27 dg 1.00
+[CAM stderr] #71 (30.01 fps) exp 32680.00 ag 2.27 dg 1.00
+[CAM stderr] #72 (30.01 fps) exp 32680.00 ag 2.27 dg 1.00
+[CAM stderr] #73 (30.01 fps) exp 32680.00 ag 2.27 dg 1.00
+[CAM stderr] #74 (30.01 fps) exp 32680.00 ag 2.27 dg 1.00
+[CAM stderr] #75 (30.01 fps) exp 32680.00 ag 2.27 dg 1.00
+[CAM stderr] #76 (30.01 fps) exp 32680.00 ag 2.27 dg 1.00
+[CAM stderr] #77 (30.01 fps) exp 32680.00 ag 2.27 dg 1.00
+[CAM stderr] #78 (30.01 fps) exp 32680.00 ag 2.27 dg 1.00
+[CAM stderr] #79 (30.01 fps) exp 32680.00 ag 2.27 dg 1.00
+[CAM stderr] #80 (30.01 fps) exp 32680.00 ag 2.27 dg 1.00
+[CAM stderr] #81 (30.01 fps) exp 32680.00 ag 2.27 dg 1.00
+[CAM stderr] #82 (30.01 fps) exp 32680.00 ag 2.27 dg 1.00
+[CAM stderr] #83 (30.01 fps) exp 32680.00 ag 2.27 dg 1.00
+[CAM stderr] #84 (30.01 fps) exp 32680.00 ag 2.27 dg 1.00
+[CAM stderr] #85 (30.01 fps) exp 32680.00 ag 2.27 dg 1.00
+[CAM stderr] #86 (30.01 fps) exp 32680.00 ag 2.27 dg 1.00
+[CAM stderr] #87 (30.00 fps) exp 32680.00 ag 2.27 dg 1.00
+[CAM stderr] #88 (30.02 fps) exp 32680.00 ag 2.27 dg 1.00
+[CAM stderr] #89 (30.01 fps) exp 32680.00 ag 2.27 dg 1.00
+[CAM stderr] #90 (30.01 fps) exp 32680.00 ag 2.27 dg 1.00
+[CAM stderr] #91 (30.01 fps) exp 32680.00 ag 2.27 dg 1.00
+[CAM stderr] #92 (30.01 fps) exp 32680.00 ag 2.27 dg 1.00
+[CAM stderr] #93 (30.01 fps) exp 32680.00 ag 2.27 dg 1.00
+[CAM stderr] #94 (30.02 fps) exp 32680.00 ag 2.27 dg 1.00
+[CAM stderr] #95 (30.01 fps) exp 32680.00 ag 2.27 dg 1.00
+[CAM stderr] #96 (30.01 fps) exp 32680.00 ag 2.27 dg 1.00
+[CAM stderr] #97 (30.01 fps) exp 32680.00 ag 2.27 dg 1.00
+[CAM stderr] #98 (30.01 fps) exp 32680.00 ag 2.27 dg 1.00
+[CAM stderr] #99 (30.01 fps) exp 32680.00 ag 2.27 dg 1.00
+[CAM stderr] #100 (30.01 fps) exp 32680.00 ag 2.27 dg 1.00
+[CAM stderr] #101 (30.01 fps) exp 32680.00 ag 2.27 dg 1.00
+[CAM stderr] #102 (30.01 fps) exp 32680.00 ag 2.27 dg 1.00
+[CAM stderr] #103 (30.01 fps) exp 32680.00 ag 2.27 dg 1.00
+[CAM stderr] #104 (30.01 fps) exp 32680.00 ag 2.27 dg 1.00
+[CAM stderr] #105 (30.01 fps) exp 32680.00 ag 2.27 dg 1.00
+[CAM stderr] #106 (30.02 fps) exp 32680.00 ag 2.27 dg 1.00
+[CAM stderr] #107 (30.01 fps) exp 32680.00 ag 2.27 dg 1.00
+[CAM stderr] #108 (30.01 fps) exp 32680.00 ag 2.27 dg 1.00
+[CAM stderr] #109 (30.01 fps) exp 32680.00 ag 2.27 dg 1.00
+[CAM stderr] #110 (30.01 fps) exp 32680.00 ag 2.27 dg 1.00
+[CAM stderr] #111 (30.01 fps) exp 32680.00 ag 2.27 dg 1.00
+[CAM stderr] #112 (30.01 fps) exp 32680.00 ag 2.27 dg 1.00
+[CAM stderr] #113 (30.01 fps) exp 32680.00 ag 2.27 dg 1.00
+[CAM stderr] #114 (30.01 fps) exp 32680.00 ag 2.27 dg 1.00
+[CAM stderr] #115 (30.01 fps) exp 32680.00 ag 2.27 dg 1.00
+[CAM stderr] #116 (30.01 fps) exp 32680.00 ag 2.27 dg 1.00
+[CAM stderr] #117 (30.01 fps) exp 32680.00 ag 2.27 dg 1.00
+[CAM stderr] #118 (30.02 fps) exp 32680.00 ag 2.27 dg 1.00
+[CAM stderr] #119 (30.01 fps) exp 32680.00 ag 2.27 dg 1.00
+[CAM stderr] #120 (30.00 fps) exp 32680.00 ag 2.25 dg 1.00
+[CAM stderr] #121 (30.01 fps) exp 32680.00 ag 2.23 dg 1.00
+[CAM stderr] #122 (30.01 fps) exp 32680.00 ag 2.23 dg 1.00
+[CAM stderr] #123 (30.01 fps) exp 32680.00 ag 2.23 dg 1.00
+[CAM stderr] #124 (30.01 fps) exp 32680.00 ag 2.23 dg 1.00
+[CAM stderr] #125 (30.01 fps) exp 32680.00 ag 2.23 dg 1.00
+[CAM stderr] #126 (30.01 fps) exp 32680.00 ag 2.23 dg 1.00
+[CAM stderr] #127 (30.01 fps) exp 32680.00 ag 2.23 dg 1.00
+[CAM stderr] #128 (30.01 fps) exp 32680.00 ag 2.23 dg 1.00
+[CAM stderr] #129 (30.01 fps) exp 32680.00 ag 2.23 dg 1.00
+[CAM stderr] #130 (30.01 fps) exp 32680.00 ag 2.23 dg 1.00
+[CAM stderr] #131 (30.01 fps) exp 32680.00 ag 2.25 dg 1.00
+[CAM stderr] #132 (30.01 fps) exp 32680.00 ag 2.25 dg 1.00
+[CAM stderr] #133 (30.01 fps) exp 32680.00 ag 2.25 dg 1.00
+[CAM stderr] #134 (30.01 fps) exp 32680.00 ag 2.25 dg 1.00
+[CAM stderr] #135 (30.01 fps) exp 32680.00 ag 2.25 dg 1.00
+[CAM stderr] #136 (30.01 fps) exp 32680.00 ag 2.25 dg 1.00
+[CAM stderr] #137 (30.01 fps) exp 32680.00 ag 2.25 dg 1.00
+[CAM stderr] #138 (30.01 fps) exp 32680.00 ag 2.25 dg 1.00
+[CAM stderr] #139 (30.01 fps) exp 32680.00 ag 2.25 dg 1.00
+[CAM stderr] #140 (30.01 fps) exp 32680.00 ag 2.25 dg 1.00
+[CAM stderr] #141 (30.00 fps) exp 32680.00 ag 2.25 dg 1.00
+[CAM stderr] #142 (30.02 fps) exp 32680.00 ag 2.25 dg 1.00
+[CAM stderr] #143 (30.01 fps) exp 32680.00 ag 2.25 dg 1.00
+[CAM stderr] #144 (30.01 fps) exp 32680.00 ag 2.25 dg 1.00
+[CAM stderr] #145 (30.01 fps) exp 32680.00 ag 2.25 dg 1.00
+[CAM stderr] #146 (30.01 fps) exp 32680.00 ag 2.25 dg 1.00
+[CAM stderr] #147 (30.01 fps) exp 32680.00 ag 2.25 dg 1.00
+[CAM stderr] #148 (30.02 fps) exp 32680.00 ag 2.25 dg 1.00
+[CAM stderr] #149 (30.01 fps) exp 32680.00 ag 2.25 dg 1.00
+[CAM stderr] #150 (30.01 fps) exp 32680.00 ag 2.25 dg 1.00
+[CAM stderr] #151 (30.01 fps) exp 32680.00 ag 2.25 dg 1.00
+[CAM stderr] #152 (30.01 fps) exp 32680.00 ag 2.25 dg 1.00
+[CAM stderr] #153 (30.01 fps) exp 32680.00 ag 2.25 dg 1.00
+[CAM stderr] #154 (30.02 fps) exp 32680.00 ag 2.25 dg 1.00
+[CAM stderr] #155 (30.01 fps) exp 32680.00 ag 2.25 dg 1.00
+[CAM stderr] #156 (30.02 fps) exp 32680.00 ag 2.25 dg 1.00
+[CAM stderr] #157 (30.01 fps) exp 32680.00 ag 2.25 dg 1.00
+[CAM stderr] #158 (30.01 fps) exp 32680.00 ag 2.25 dg 1.00
+[CAM stderr] #159 (30.01 fps) exp 32680.00 ag 2.25 dg 1.00
+[CAM stderr] #160 (30.01 fps) exp 32680.00 ag 2.25 dg 1.00
+[CAM stderr] #161 (30.01 fps) exp 32680.00 ag 2.25 dg 1.00
+[CAM stderr] #162 (30.01 fps) exp 32680.00 ag 2.25 dg 1.00
+[CAM stderr] #163 (30.01 fps) exp 32680.00 ag 2.25 dg 1.00
+[CAM stderr] #164 (30.01 fps) exp 32680.00 ag 2.25 dg 1.00
+[CAM stderr] #165 (30.01 fps) exp 32680.00 ag 2.25 dg 1.00
+[CAM stderr] #166 (30.01 fps) exp 32680.00 ag 2.25 dg 1.00
+[CAM stderr] #167 (30.01 fps) exp 32680.00 ag 2.25 dg 1.00
+[CAM stderr] #168 (30.01 fps) exp 32680.00 ag 2.25 dg 1.00
+[CAM stderr] #169 (30.01 fps) exp 32680.00 ag 2.25 dg 1.00
+[CAM stderr] #170 (30.01 fps) exp 32680.00 ag 2.25 dg 1.00
+[CAM stderr] #171 (30.01 fps) exp 32680.00 ag 2.25 dg 1.00
+[CAM stderr] #172 (30.01 fps) exp 32680.00 ag 2.25 dg 1.00
+[CAM stderr] #173 (30.01 fps) exp 32680.00 ag 2.25 dg 1.00
+[13:49:51]  MP3: STOPPED     PHONE: RETURNED    RECORD: IDLE
+[PHONE] On hook — stopping everything...
+[CAM] Stream stopped.
+[VID] Video stopped.
+[IMG] Welcome image started (PID 1910)
+[13:49:51]  MP3: STOPPED     PHONE: ON_HOOK     RECORD: IDLE
+[PHONE] On hook — stopping everything...
+[13:49:54]  MP3: PLAYING     PHONE: ON_HOOK     RECORD: IDLE
+[PHONE] On hook — stopping everything...
+[13:49:54]  MP3: FINISHED    PHONE: ON_HOOK     RECORD: IDLE
+[PHONE] On hook — stopping everything...
+[13:49:54]  MP3: STOPPED     PHONE: ON_HOOK     RECORD: IDLE
+[PHONE] On hook — stopping everything...
+[13:49:54]  MP3: PLAYING     PHONE: LIFTED      RECORD: IDLE
+[IMG] Welcome image stopped.
+[PHONE] Phone lifted — starting stream and video...
+[REC] Screens idle — resuming in 0.5 seconds...
+[CAM] Stream started on HDMI-A-2 (PID 1914)
+[VID] Video started on HDMI0 / HDMI-A-1 (PID 1916)Connecting to Arduino on /dev/ttyACM0 at 9600 baud...
+Connected. Listening for state updates...
+
+[14:15:30]  MP3: STOPPED     PHONE: ON_HOOK     RECORD: IDLE
+[PHONE] On hook — stopping everything...
+[IMG] Welcome image started (PID 4924)
+[14:15:43]  MP3: STOPPED     PHONE: LIFTED      RECORD: IDLE
+[IMG] Welcome image stopped.
+[PHONE] Phone lifted — starting stream and video...
+[REC] Screens idle — resuming in 0.5 seconds...
+[CAM] Stream started on HDMI-A-2 (PID 4940)
+[VID] Video started on HDMI0 / HDMI-A-1 (PID 4942)
+[CAM stderr] [0:12:55.090849181] [4940]  INFO Camera camera_manager.cpp:340 libcamera v0.7.0+rpt20260205
+[CAM stderr] [0:12:55.102159328] [4946]  INFO RPI pisp.cpp:720 libpisp version 1.3.0
+[CAM stderr] [0:12:55.102951732] [4946]  WARN CameraSensorProperties camera_sensor_properties.cpp:548 No static properties available for 'imx708_wide'
+[CAM stderr] [0:12:55.102962343] [4946]  WARN CameraSensorProperties camera_sensor_properties.cpp:550 Please consider updating the camera sensor properties database
+[CAM stderr] [0:12:55.120671087] [4946]  INFO IPAProxy ipa_proxy.cpp:180 Using tuning file /usr/share/libcamera/ipa/rpi/pisp/imx708_wide.json
+[CAM stderr] [0:12:55.130849554] [4946]  WARN CameraSensor camera_sensor_legacy.cpp:502 'imx708_wide': No sensor delays found in static properties. Assuming unverified defaults.
+[CAM stderr] [0:12:55.131437662] [4946]  INFO Camera camera_manager.cpp:223 Adding camera '/base/axi/pcie@1000120000/rp1/i2c@80000/imx708@1a' for pipeline handler rpi/pisp
+[CAM stderr] [0:12:55.131463977] [4946]  INFO RPI pisp.cpp:1181 Registered camera /base/axi/pcie@1000120000/rp1/i2c@80000/imx708@1a to CFE device /dev/media1 and ISP device /dev/media0 using PiSP variant BCM2712_D0
+[CAM stderr] Made X/EGL preview window
+[CAM stderr] Mode selection for 1920:540:12:P
+[CAM stderr]     SRGGB10_CSI2P,1536x864/0 - Score: 7182.33
+[CAM stderr]     SRGGB10_CSI2P,2304x1296/0 - Score: 6618.33
+[CAM stderr]     SRGGB10_CSI2P,4608x2592/0 - Score: 7518.33
+[CAM stderr] Stream configuration adjusted
+[CAM stderr] [0:12:55.458449166] [4940]  INFO Camera camera.cpp:1215 configuring streams: (0) 1920x540-YUV420/Rec709 (1) 2304x1296-GBRG_PISP_COMP1/RAW
+[CAM stderr] [0:12:55.458585554] [4946]  INFO RPI pisp.cpp:1485 Sensor: /base/axi/pcie@1000120000/rp1/i2c@80000/imx708@1a - Selected sensor format: 2304x1296-SGBRG10_1X10/RAW - Selected CFE format: 2304x1296-PC1g/RAW
+[CAM stderr] [libx264 @ 0x5555e9099900] using cpu capabilities: ARMv8 NEON
+[CAM stderr] [libx264 @ 0x5555e9099900] profile High, level 3.2, 4:2:0, 8-bit
+[CAM stderr] Output #0, h264, to '':
+[CAM stderr]   Stream #0:0: Video: h264, yuv420p(tv, bt709), 1920x540, q=2-31, 30 fps, 30 tbr, 1000k tbn
+[CAM stderr]       Side data:
+[CAM stderr]         cpb: bitrate max/min/avg: 0/0/0 buffer size: 0 vbv_delay: N/A
+[VID] Volume set to 100
+[VID stderr] Failed to open VDPAU backend libvdpau_nvidia.so: cannot open shared object file: No such file or directory
+[14:15:56]  MP3: STOPPED     PHONE: LIFTED      RECORD: PRESSED
+[REC] Record pressed — starting recording, muting video...
+[CAM] Stream stopped.
+[REC] Recording started → /home/jjven/recordings/recording_20260311_141556.mkv (PID 4994)
+[REC] Overlay started (PID 4995)
+[REC stderr] [0:13:07.245478522] [4994]  INFO Camera camera_manager.cpp:340 libcamera v0.7.0+rpt20260205
+[REC stderr] [0:13:07.257756593] [5000]  INFO RPI pisp.cpp:720 libpisp version 1.3.0
+[REC stderr] [0:13:07.260317673] [5000]  WARN CameraSensorProperties camera_sensor_properties.cpp:548 No static properties available for 'imx708_wide'
+[REC stderr] [0:13:07.260354821] [5000]  WARN CameraSensorProperties camera_sensor_properties.cpp:550 Please consider updating the camera sensor properties database
+[REC stderr] [0:13:07.311870722] [5000]  INFO IPAProxy ipa_proxy.cpp:180 Using tuning file /usr/share/libcamera/ipa/rpi/pisp/imx708_wide.json
+[REC stderr] [0:13:07.319285909] [5000]  WARN CameraSensor camera_sensor_legacy.cpp:502 'imx708_wide': No sensor delays found in static properties. Assuming unverified defaults.
+[REC stderr] [0:13:07.319669796] [5000]  INFO Camera camera_manager.cpp:223 Adding camera '/base/axi/pcie@1000120000/rp1/i2c@80000/imx708@1a' for pipeline handler rpi/pisp
+[REC stderr] [0:13:07.319678537] [5000]  INFO RPI pisp.cpp:1181 Registered camera /base/axi/pcie@1000120000/rp1/i2c@80000/imx708@1a to CFE device /dev/media1 and ISP device /dev/media0 using PiSP variant BCM2712_D0
+[REC stderr] Made X/EGL preview window
+[REC stderr] Mode selection for 1920:540:12:P
+[REC stderr]     SRGGB10_CSI2P,1536x864/0 - Score: 7182.33
+[REC stderr]     SRGGB10_CSI2P,2304x1296/0 - Score: 6618.33
+[REC stderr]     SRGGB10_CSI2P,4608x2592/0 - Score: 7518.33
+[REC stderr] Stream configuration adjusted
+[REC stderr] [0:13:07.478819328] [4994]  INFO Camera camera.cpp:1215 configuring streams: (0) 1920x540-YUV420/Rec709 (1) 2304x1296-GBRG_PISP_COMP1/RAW
+[REC stderr] [0:13:07.479043939] [5000]  INFO RPI pisp.cpp:1485 Sensor: /base/axi/pcie@1000120000/rp1/i2c@80000/imx708@1a - Selected sensor format: 2304x1296-SGBRG10_1X10/RAW - Selected CFE format: 2304x1296-PC1g/RAW
+[VID] Volume set to 0
+[REC stderr] [libx264 @ 0x55556c011180] using cpu capabilities: ARMv8 NEON
+[REC stderr] [libx264 @ 0x55556c011180] profile High, level 3.2, 4:2:0, 8-bit
+[REC stderr] [libx264 @ 0x55556c011180] 264 - core 164 r3108 31e19f9 - H.264/MPEG-4 AVC codec - Copyleft 2003-2023 - http://www.videolan.org/x264.html - options: cabac=1 ref=1 deblock=1:0:0 analyse=0x3:0x3 me=dia subme=0 psy=1 psy_rd=1.00:0.00 mixed_ref=0 me_range=16 chroma_me=0 trellis=0 8x8dct=1 cqm=0 deadzone=21,11 fast_pskip=1 chroma_qp_offset=0 threads=6 lookahead_threads=1 sliced_threads=0 slices=1 nr=0 decimate=1 interlaced=0 bluray_compat=0 constrained_intra=0 bframes=1 b_pyramid=0 b_adapt=1 b_bias=0 direct=1 weightb=0 open_gop=0 weightp=0 keyint=30 keyint_min=3 scenecut=0 intra_refresh=0 rc=crf mbtree=0 crf=23.0 qcomp=0.60 qpmin=0 qpmax=69 qpstep=4 ip_ratio=1.40 pb_ratio=1.30 aq=1:1.00
+[REC stderr] Input #0, alsa, from 'plughw:2,0':
+[REC stderr]   Duration: N/A, start: 1773238556.984791, bitrate: 1536 kb/s
+[REC stderr]   Stream #0:0: Audio: pcm_s16le, 48000 Hz, 2 channels, s16, 1536 kb/s
+[REC stderr] Output #0, matroska, to '/home/jjven/recordings/recording_20260311_141556.mkv':
+[REC stderr]   Stream #0:0: Video: h264, yuv420p(tv, bt709), 1920x540, q=2-31, 30 fps, 30 tbr, 1000k tbn
+[REC stderr]       Side data:
+[REC stderr]         cpb: bitrate max/min/avg: 0/0/0 buffer size: 0 vbv_delay: N/A
+[REC stderr]   Stream #0:1: Audio: aac (LC), 48000 Hz, stereo, fltp, 32 kb/s
+[14:16:11]  MP3: STOPPED     PHONE: LIFTED      RECORD: IDLE
+[PHONE] Phone lifted — starting stream and video...
+[REC] Overlay stopped.
+[REC stderr] Received signal 2
+[REC stderr] [libx264 @ 0x55556c011180] frame I:14    Avg QP:17.22  size: 53399
+[REC stderr] [libx264 @ 0x55556c011180] frame P:206   Avg QP:18.65  size: 10465
+[REC stderr] [libx264 @ 0x55556c011180] frame B:192   Avg QP:19.84  size:  3141
+[REC stderr] [libx264 @ 0x55556c011180] consecutive B-frames:  6.8% 93.2%
+[REC stderr] [libx264 @ 0x55556c011180] mb I  I16..4:  7.1% 55.1% 37.8%
+[REC stderr] [libx264 @ 0x55556c011180] mb P  I16..4:  3.9% 10.0%  0.4%  P16..4: 56.9%  0.0%  0.0%  0.0%  0.0%    skip:28.8%
+[REC stderr] [libx264 @ 0x55556c011180] mb B  I16..4:  1.6%  1.8%  0.0%  B16..8: 18.3%  0.0%  0.0%  direct:14.1%  skip:64.1%  L0:45.9% L1:50.1% BI: 4.0%
+[REC stderr] [libx264 @ 0x55556c011180] 8x8 transform intra:63.6% inter:43.9%
+[REC stderr] [libx264 @ 0x55556c011180] coded y,uvDC,uvAC intra: 51.0% 61.0% 24.0% inter: 5.4% 31.9% 0.2%
+[REC stderr] [libx264 @ 0x55556c011180] i16 v,h,dc,p: 32% 21% 16% 31%
+[REC stderr] [libx264 @ 0x55556c011180] i8 v,h,dc,ddl,ddr,vr,hd,vl,hu: 21% 16% 25%  3%  8%  7%  7%  5%  7%
+[REC stderr] [libx264 @ 0x55556c011180] i4 v,h,dc,ddl,ddr,vr,hd,vl,hu: 30% 19% 15%  4%  6%  6%  5%  6%  8%
+[REC stderr] [libx264 @ 0x55556c011180] i8c dc,h,v,p: 41% 22% 28%  9%
+[REC stderr] [libx264 @ 0x55556c011180] kb/s:2043.26
+[REC stderr] [aac @ 0x55556c357570] Qavg: 414.444
+[REC] Recording stopped.
+[VID] Video stopped.
+[REC] Screens idle — resuming in 0.5 seconds...
+[CAM] Stream started on HDMI-A-2 (PID 5023)
+[VID] Video started on HDMI0 / HDMI-A-1 (PID 5025)
+[CAM stderr] [0:13:22.716261565] [5023]  INFO Camera camera_manager.cpp:340 libcamera v0.7.0+rpt20260205
+[CAM stderr] [0:13:22.734883017] [5029]  INFO RPI pisp.cpp:720 libpisp version 1.3.0
+[CAM stderr] [0:13:22.735749476] [5029]  WARN CameraSensorProperties camera_sensor_properties.cpp:548 No static properties available for 'imx708_wide'
+[CAM stderr] [0:13:22.735763161] [5029]  WARN CameraSensorProperties camera_sensor_properties.cpp:550 Please consider updating the camera sensor properties database
+[CAM stderr] [0:13:22.751687219] [5029]  INFO IPAProxy ipa_proxy.cpp:180 Using tuning file /usr/share/libcamera/ipa/rpi/pisp/imx708_wide.json
+[CAM stderr] [0:13:22.761200953] [5029]  WARN CameraSensor camera_sensor_legacy.cpp:502 'imx708_wide': No sensor delays found in static properties. Assuming unverified defaults.
+[CAM stderr] [0:13:22.761615526] [5029]  INFO Camera camera_manager.cpp:223 Adding camera '/base/axi/pcie@1000120000/rp1/i2c@80000/imx708@1a' for pipeline handler rpi/pisp
+[CAM stderr] [0:13:22.761628470] [5029]  INFO RPI pisp.cpp:1181 Registered camera /base/axi/pcie@1000120000/rp1/i2c@80000/imx708@1a to CFE device /dev/media1 and ISP device /dev/media0 using PiSP variant BCM2712_D0
+[CAM stderr] Made X/EGL preview window
+[CAM stderr] Mode selection for 1920:540:12:P
+[CAM stderr]     SRGGB10_CSI2P,1536x864/0 - Score: 7182.33
+[CAM stderr]     SRGGB10_CSI2P,2304x1296/0 - Score: 6618.33
+[CAM stderr]     SRGGB10_CSI2P,4608x2592/0 - Score: 7518.33
+[CAM stderr] Stream configuration adjusted
+[CAM stderr] [0:13:22.895207199] [5023]  INFO Camera camera.cpp:1215 configuring streams: (0) 1920x540-YUV420/Rec709 (1) 2304x1296-GBRG_PISP_COMP1/RAW
+[CAM stderr] [0:13:22.895401513] [5029]  INFO RPI pisp.cpp:1485 Sensor: /base/axi/pcie@1000120000/rp1/i2c@80000/imx708@1a - Selected sensor format: 2304x1296-SGBRG10_1X10/RAW - Selected CFE format: 2304x1296-PC1g/RAW
+[VID stderr] Failed to open VDPAU backend libvdpau_nvidia.so: cannot open shared object file: No such file or directory
+[VID] Volume set to 100
+[CAM stderr] [libx264 @ 0x5555dc271e40] using cpu capabilities: ARMv8 NEON
+[CAM stderr] [libx264 @ 0x5555dc271e40] profile High, level 3.2, 4:2:0, 8-bit
+[CAM stderr] Output #0, h264, to '':
+[CAM stderr]   Stream #0:0: Video: h264, yuv420p(tv, bt709), 1920x540, q=2-31, 30 fps, 30 tbr, 1000k tbn
+[CAM stderr]       Side data:
+[CAM stderr]         cpb: bitrate max/min/avg: 0/0/0 buffer size: 0 vbv_delay: N/A
+[14:16:21]  MP3: STOPPED     PHONE: RETURNED    RECORD: IDLE
+[PHONE] On hook — stopping everything...
+[CAM] Stream stopped.
+[VID] Video stopped.
+[IMG] Welcome image started (PID 5070)
+[14:16:21]  MP3: STOPPED     PHONE: ON_HOOK     RECORD: IDLE
+[PHONE] On hook — stopping everything...
+[14:16:27]  MP3: PLAYING     PHONE: ON_HOOK     RECORD: IDLE
+[PHONE] On hook — stopping everything...
+[14:16:31]  MP3: FINISHED    PHONE: ON_HOOK     RECORD: IDLE
+[PHONE] On hook — stopping everything...
+[14:16:31]  MP3: STOPPED     PHONE: ON_HOOK     RECORD: IDLE
+[PHONE] On hook — stopping everything...
+[14:17:17]  MP3: PLAYING     PHONE: ON_HOOK     RECORD: IDLE
+[PHONE] On hook — stopping everything...
+[14:17:17]  MP3: FINISHED    PHONE: ON_HOOK     RECORD: IDLE
+[PHONE] On hook — stopping everything...
+[14:17:21]  MP3: PLAYING     PHONE: LIFTED      RECORD: IDLE
+[IMG] Welcome image stopped.
+[PHONE] Phone lifted — starting stream and video...
+[REC] Screens idle — resuming in 0.5 seconds...
+[CAM] Stream started on HDMI-A-2 (PID 5083)
+[VID] Video started on HDMI0 / HDMI-A-1 (PID 5085)
+[CAM stderr] [0:14:32.793419832] [5083]  INFO Camera camera_manager.cpp:340 libcamera v0.7.0+rpt20260205
+[CAM stderr] [0:14:32.803158407] [5089]  INFO RPI pisp.cpp:720 libpisp version 1.3.0
+[CAM stderr] [0:14:32.803943627] [5089]  WARN CameraSensorProperties camera_sensor_properties.cpp:548 No static properties available for 'imx708_wide'
+[CAM stderr] [0:14:32.803955441] [5089]  WARN CameraSensorProperties camera_sensor_properties.cpp:550 Please consider updating the camera sensor properties database
+[CAM stderr] [0:14:32.821239545] [5089]  INFO IPAProxy ipa_proxy.cpp:180 Using tuning file /usr/share/libcamera/ipa/rpi/pisp/imx708_wide.json
+[CAM stderr] [0:14:32.830803603] [5089]  WARN CameraSensor camera_sensor_legacy.cpp:502 'imx708_wide': No sensor delays found in static properties. Assuming unverified defaults.
+[CAM stderr] [0:14:32.831396712] [5089]  INFO Camera camera_manager.cpp:223 Adding camera '/base/axi/pcie@1000120000/rp1/i2c@80000/imx708@1a' for pipeline handler rpi/pisp
+[CAM stderr] [0:14:32.831420304] [5089]  INFO RPI pisp.cpp:1181 Registered camera /base/axi/pcie@1000120000/rp1/i2c@80000/imx708@1a to CFE device /dev/media1 and ISP device /dev/media0 using PiSP variant BCM2712_D0
+[CAM stderr] Made X/EGL preview window
+[CAM stderr] Mode selection for 1920:540:12:P
+[CAM stderr]     SRGGB10_CSI2P,1536x864/0 - Score: 7182.33
+[CAM stderr]     SRGGB10_CSI2P,2304x1296/0 - Score: 6618.33
+[CAM stderr]     SRGGB10_CSI2P,4608x2592/0 - Score: 7518.33
+[CAM stderr] Stream configuration adjusted
+[CAM stderr] [0:14:32.957605585] [5083]  INFO Camera camera.cpp:1215 configuring streams: (0) 1920x540-YUV420/Rec709 (1) 2304x1296-GBRG_PISP_COMP1/RAW
+[CAM stderr] [0:14:32.957790751] [5089]  INFO RPI pisp.cpp:1485 Sensor: /base/axi/pcie@1000120000/rp1/i2c@80000/imx708@1a - Selected sensor format: 2304x1296-SGBRG10_1X10/RAW - Selected CFE format: 2304x1296-PC1g/RAW
+[VID stderr] Failed to open VDPAU backend libvdpau_nvidia.so: cannot open shared object file: No such file or directory
+[VID] Volume set to 100
+[14:17:22]  MP3: STOPPED     PHONE: LIFTED      RECORD: IDLE
+[PHONE] Phone lifted — starting stream and video...
+[CAM] Stream stopped.
+[VID] Video stopped.
+[REC] Screens idle — resuming in 0.5 seconds...
+[CAM] Stream started on HDMI-A-2 (PID 5125)
+[VID] Video started on HDMI0 / HDMI-A-1 (PID 5127)
+[CAM stderr] [0:14:33.814193222] [5125]  INFO Camera camera_manager.cpp:340 libcamera v0.7.0+rpt20260205
+[CAM stderr] [0:14:33.824232278] [5131]  INFO RPI pisp.cpp:720 libpisp version 1.3.0
+[CAM stderr] [0:14:33.825424884] [5131]  WARN CameraSensorProperties camera_sensor_properties.cpp:548 No static properties available for 'imx708_wide'
+[CAM stderr] [0:14:33.825455088] [5131]  WARN CameraSensorProperties camera_sensor_properties.cpp:550 Please consider updating the camera sensor properties database
+[CAM stderr] [0:14:33.844083483] [5131]  INFO IPAProxy ipa_proxy.cpp:180 Using tuning file /usr/share/libcamera/ipa/rpi/pisp/imx708_wide.json
+[CAM stderr] [0:14:33.851402290] [5131]  WARN CameraSensor camera_sensor_legacy.cpp:502 'imx708_wide': No sensor delays found in static properties. Assuming unverified defaults.
+[CAM stderr] [0:14:33.851831159] [5131]  INFO Camera camera_manager.cpp:223 Adding camera '/base/axi/pcie@1000120000/rp1/i2c@80000/imx708@1a' for pipeline handler rpi/pisp
+[CAM stderr] [0:14:33.851841585] [5131]  INFO RPI pisp.cpp:1181 Registered camera /base/axi/pcie@1000120000/rp1/i2c@80000/imx708@1a to CFE device /dev/media1 and ISP device /dev/media0 using PiSP variant BCM2712_D0
+[CAM stderr] Made X/EGL preview window
+[CAM stderr] Mode selection for 1920:540:12:P
+[CAM stderr]     SRGGB10_CSI2P,1536x864/0 - Score: 7182.33
+[CAM stderr]     SRGGB10_CSI2P,2304x1296/0 - Score: 6618.33
+[CAM stderr]     SRGGB10_CSI2P,4608x2592/0 - Score: 7518.33
+[CAM stderr] Stream configuration adjusted
+[CAM stderr] [0:14:33.964998247] [5125]  INFO Camera camera.cpp:1215 configuring streams: (0) 1920x540-YUV420/Rec709 (1) 2304x1296-GBRG_PISP_COMP1/RAW
+[CAM stderr] [0:14:33.965245691] [5131]  INFO RPI pisp.cpp:1485 Sensor: /base/axi/pcie@1000120000/rp1/i2c@80000/imx708@1a - Selected sensor format: 2304x1296-SGBRG10_1X10/RAW - Selected CFE format: 2304x1296-PC1g/RAW
+[VID stderr] Failed to open VDPAU backend libvdpau_nvidia.so: cannot open shared object file: No such file or directory
+[VID] Volume set to 100
+[CAM stderr] [libx264 @ 0x5555b378ddc0] using cpu capabilities: ARMv8 NEON
+[CAM stderr] [libx264 @ 0x5555b378ddc0] profile High, level 3.2, 4:2:0, 8-bit
+[CAM stderr] Output #0, h264, to '':
+[CAM stderr]   Stream #0:0: Video: h264, yuv420p(tv, bt709), 1920x540, q=2-31, 30 fps, 30 tbr, 1000k tbn
